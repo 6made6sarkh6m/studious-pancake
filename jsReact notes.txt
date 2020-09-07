@@ -73,3 +73,6 @@
 			  git config = для конфигурации репозитория проекта
 			  git add -A или git add path/path/..../file-name  = для добавления файлов в индекс
 			  git status = для просмотра состояния файлов.
+	2) Github - git remote add *namespace* *http address* = добавляет новый удаленный репозиторий для связки с локальным
+				git branch -M master создает ветку мастера(в дальнейшем можно создавать другие вторичные вети для коммита)
+				git push -u *namespace* *branch_name* = пушит твой репо в удаленный на гитхабе
